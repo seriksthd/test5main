@@ -1,3 +1,3 @@
 @echo off
-python -m uvicorn backend.server:app --reload
+python -m uvicorn server:app --reload
 pause
